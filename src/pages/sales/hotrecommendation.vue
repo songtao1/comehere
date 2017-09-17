@@ -1,4 +1,4 @@
-<template>
+<template xmlns:v-lazy="http://www.w3.org/1999/xhtml">
 <div id="main">
 	<div class="hotsales" id="js-hotsales">
 		<div class="hotrecommendation border-top">
@@ -159,7 +159,7 @@ export default {
 	}
 	.hostlist-info {
 		padding: .2rem .2rem .2rem 0;
-		flex: 1; 
+		flex: 1;
 	}
 	.hot-ticketnameinfo {
 		height:.88rem;
